@@ -177,3 +177,16 @@ header {
 }
   
 /* Write your CSS below */
+@media (width < 760px){
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .navbar li {
+    width: auto;
+    flex-direction: column;
+    border-top: 1px solid #ffffff;
+    border-right: initial;
+  }
+}
