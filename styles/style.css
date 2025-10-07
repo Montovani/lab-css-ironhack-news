@@ -207,3 +207,18 @@ header {
     margin-bottom: 30px;
   }
 }
+@media (min-width: 760px) and (max-width: 1024px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navbar li {
+    width: 100%;
+  }
+  .articles-container {
+   justify-content: space-between;
+  }
+  .article {
+    margin-bottom: 30px;
+    flex: 0 0 45%;
+  }
+}
