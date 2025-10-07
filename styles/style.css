@@ -82,7 +82,9 @@ header {
   display: flex;
   justify-content: flex-start;
 }
-
+.navbar .small-menu {
+    display:none;
+  }
 .navbar li {
   width: 130px;
   height: 40px;
@@ -220,5 +222,21 @@ header {
   .article {
     margin-bottom: 30px;
     flex: 0 0 45%;
+  }
+}
+@media (width < 480px) {
+  .newspaper-name {
+    border: 0px
+  }
+  .navbar {
+    align-items: center;
+  }
+  .navbar li {
+    display: none;
+  }
+  .navbar .small-menu {
+    display: block;
+    width: 8%;
+    height: auto;
   }
 }
